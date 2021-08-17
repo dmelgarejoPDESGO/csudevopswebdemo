@@ -2,7 +2,7 @@ version: '2'
 
 services:
   ci-build:
-    image: mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019/ltsc2016
+    image: microsoft/aspnetcore:2.0.3
     volumes:
       - .:/src
     working_dir: /src
